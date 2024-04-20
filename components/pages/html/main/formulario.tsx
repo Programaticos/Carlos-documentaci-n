@@ -63,7 +63,7 @@ function Formulario() {
           <Select />
           <br />
           <p>Este botón es un componente</p>
-          <MiBoton />
+          <MiBoton titulo="Enter" />
         </form>
       </div>
       <br />

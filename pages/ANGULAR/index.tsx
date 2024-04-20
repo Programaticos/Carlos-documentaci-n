@@ -1,11 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Link from "next/link";
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
-
-const inter = Inter({ subsets: ["latin"] });
+import Saludo from "@/components/layout/header/saludo";
 
 export default function Angular() {
   return (
@@ -17,12 +14,13 @@ export default function Angular() {
         <link rel="icon" href="/angularFav.png" />
       </Head>
       <MiHeader />
-      <main className={` ${inter.className}`}>
-        <Link href="https://www.angular.io/" target="_blank">
-          <h3>Pulsa para ver la documentación oficial de Angular</h3>
-        </Link>
-        <Link href="./">Home</Link>
+      <main>
+        <Saludo titulo="Angular" />
       </main>
+      <Link href="https://www.angular.io/" target="_blank">
+        <h3>Pulsa para ver la documentación oficial de Angular</h3>
+      </Link>
+      <Link href="./">Home</Link>
       <MiFooter />
     </>
   );

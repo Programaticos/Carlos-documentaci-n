@@ -1,6 +1,6 @@
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
-import NavBar from "@/components/layout/header/navBar";
+import NavBar from "@/components/layout/header/miNavStyled/navBar";
 import MiIFrame from "@/components/pages/html/main/miIframe";
 import Head from "next/head";
 import Link from "next/link";

@@ -1,10 +1,8 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Link from "next/link";
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
-
-const inter = Inter({ subsets: ["latin"] });
+import Saludo from "@/components/layout/header/saludo";
 
 export default function Js() {
   return (
@@ -16,15 +14,16 @@ export default function Js() {
         <link rel="icon" href="/jsFav.png" />
       </Head>
       <MiHeader />
-      <main className={` ${inter.className}`}>
-        <Link
-          href="https://developer.mozilla.org/es/docs/Web/JavaScript"
-          target="_blank"
-        >
-          <h3>Pulsa para ver la documentación oficial de JS</h3>
-        </Link>
-        <Link href="./">Home</Link>
+      <main>
+        <Saludo titulo="Javascript" />
       </main>
+      <Link
+        href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+        target="_blank"
+      >
+        <h3>Pulsa para ver la documentación oficial de JS</h3>
+      </Link>
+      <Link href="./">Home</Link>
       <MiFooter />
     </>
   );

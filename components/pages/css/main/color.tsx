@@ -1,4 +1,6 @@
-function Color() {
+import React from "react";
+
+function Color(): React.ReactElement {
   return (
     <>
       <h3>Color</h3>

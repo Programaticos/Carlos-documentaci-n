@@ -1,4 +1,4 @@
-function Background() {
+function Background(): React.ReactElement {
   return (
     <>
       <h3>Css Background</h3>

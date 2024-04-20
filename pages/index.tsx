@@ -12,10 +12,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/frontFav.png" />
       </Head>
+
       <MiHeader />
       <main className="miMain">
         <Welcome />
-        <h3>Este texto está dentro del main</h3>
       </main>
       <MiFooter />
     </>

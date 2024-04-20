@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
+import MiNavStyled from "./miNavStyled";
 
 function NavBar() {
   return (
-    <nav>
+    <MiNavStyled>
       <ul className="miNavBar">
         <li>
           {" "}
           <Link href="/HTML">
-            HTML{" "}
             <Image
               src="/img/HTML5_logo_and_wordmark.svg.png"
               alt="logo html"
@@ -20,7 +20,6 @@ function NavBar() {
         <li>
           {" "}
           <Link href="/CSS">
-            CSS{" "}
             <Image
               src={"/img/CSS3_logo_and_wordmark.svg"}
               alt="css logo"
@@ -31,7 +30,6 @@ function NavBar() {
         </li>
         <li>
           <Link href="JS">
-            JS{" "}
             <Image
               src="/img/JavaScript-logo.png"
               alt="logo js"
@@ -43,7 +41,6 @@ function NavBar() {
         <li>
           {" "}
           <Link href="TS">
-            TS{" "}
             <Image
               src="/img/Typescript_logo_2020.svg.png"
               alt="logo ts"
@@ -55,7 +52,6 @@ function NavBar() {
         <li>
           {" "}
           <Link href="ANGULAR">
-            ANGULAR{" "}
             <Image
               src="/img/Angular_full_color_logo.svg.png"
               alt="logo Angular"
@@ -67,7 +63,6 @@ function NavBar() {
         <li>
           {" "}
           <Link href="/REACT">
-            REACT{" "}
             <Image
               src="/img/React.svg.png"
               alt="logo react"
@@ -77,7 +72,7 @@ function NavBar() {
           </Link>
         </li>
       </ul>
-    </nav>
+    </MiNavStyled>
   );
 }
 

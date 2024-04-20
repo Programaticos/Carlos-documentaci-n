@@ -1,5 +1,5 @@
 import React from "react";
 
-export const MiBoton = (): React.ReactElement => {
-  return <button type="submit">Enter</button>;
+export const MiBoton = (props: any): React.ReactElement => {
+  return <button>{props.titulo}</button>;
 };

@@ -1,5 +1,6 @@
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
+import Saludo from "@/components/layout/header/saludo";
 import MiListaEtiquetas from "@/components/pages/html/main/miListaEtiquetas";
 import Head from "next/head";
 import Link from "next/link";
@@ -15,8 +16,16 @@ export default function Html() {
       </Head>
       <MiHeader />
       <main>
+        <Saludo titulo="HTML" />
         <MiListaEtiquetas />
       </main>
+      <Link
+        href="https://developer.mozilla.org/es/docs/Web/HTML"
+        target="_blank"
+      >
+        <h3>Pulsa para ver la documentación oficial de html</h3>
+      </Link>
+      <Link href="./">Home</Link>
       <MiFooter />
     </>
   );

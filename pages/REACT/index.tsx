@@ -4,6 +4,7 @@ import Link from "next/link";
 import Welcome from "@/components/layout/main/welcome";
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
+import Saludo from "@/components/layout/header/saludo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +19,7 @@ export default function React() {
       </Head>
       <MiHeader />
       <main className={` ${inter.className}`}>
-        <Link href="https://react.dev/" target="_blank">
-          <span>Pulsa para ver la documentación oficial de React</span>
-        </Link>
+        <Saludo titulo="React" />
         <p>
           ReactJS es una de las librerías más populares de JavaScript para el
           desarrollo de aplicaciones móviles y web. Creada por Facebook, React
@@ -36,8 +35,11 @@ export default function React() {
             <Link href="/REACT/hook">Hook react useState</Link>
           </li>
         </ul>
-        <Link href="./">Home</Link>
       </main>
+      <Link href="https://react.dev/" target="_blank">
+        <span>Pulsa para ver la documentación oficial de React</span>
+      </Link>
+      <Link href="./">Home</Link>
       <MiFooter />
     </>
   );

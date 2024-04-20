@@ -1,7 +1,7 @@
 import Head from "next/head";
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
-import Anchor from "@/components/pages/html/main/anchor";
+import Anchor from "@/components/pages/html/main/anchor/anchor";
 
 export default function HtmlAnchor() {
   return (

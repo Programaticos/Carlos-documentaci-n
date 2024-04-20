@@ -1,4 +1,4 @@
-function Border() {
+function Border(): React.ReactElement {
   return (
     <>
       <h3>Css Border</h3>

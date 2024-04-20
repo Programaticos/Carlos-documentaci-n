@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Link from "next/link";
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
+import Saludo from "@/components/layout/header/saludo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,11 +18,12 @@ export default function Typescript() {
       </Head>
       <MiHeader />
       <main className={` ${inter.className}`}>
-        <Link href="https://www.typescriptlang.org/" target="_blank">
-          <h3>Pulsa para ver la documentación oficial de TS</h3>
-        </Link>
-        <Link href="./">Home</Link>
+        <Saludo titulo="Typescript" />
       </main>
+      <Link href="https://www.typescriptlang.org/" target="_blank">
+        <h3>Pulsa para ver la documentación oficial de TS</h3>
+      </Link>
+      <Link href="./">Home</Link>
       <MiFooter />
     </>
   );
