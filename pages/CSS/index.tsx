@@ -2,8 +2,8 @@ import Head from "next/head";
 import Link from "next/link";
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
-import CssList from "@/components/pages/css/main/cssList/cssList";
 import Saludo from "@/components/layout/header/saludo";
+import MainContainer from "@/components/pages/css/main/mainContainer/mainContainer";
 
 export default function Css() {
   return (
@@ -15,17 +15,18 @@ export default function Css() {
         <link rel="icon" href="/cssFav.webp" />
       </Head>
       <MiHeader />
-      <main className="cssMain">
-        <Saludo titulo="Css" />
-        <CssList />
-      </main>
+      <Saludo titulo="Css" />
+      <br />
       <Link
         href="https://developer.mozilla.org/es/docs/Web/CSS"
         target="_blank"
       >
-        <h3>Pulsa para ver la documentación oficial de CSS</h3>
+        Pulsa para ver la documentación oficial de CSS
       </Link>
-      <Link href="./">Home</Link>
+      <main>
+        <MainContainer />
+      </main>
+
       <MiFooter />
     </>
   );

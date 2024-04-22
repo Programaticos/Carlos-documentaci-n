@@ -8,6 +8,12 @@ function NavBar() {
       <ul className="miNavBar">
         <li>
           {" "}
+          <Link href="/">
+            <Image src="/home.png" alt="home" width={36} height={36} />{" "}
+          </Link>
+        </li>
+        <li>
+          {" "}
           <Link href="/HTML">
             <Image
               src="/img/HTML5_logo_and_wordmark.svg.png"

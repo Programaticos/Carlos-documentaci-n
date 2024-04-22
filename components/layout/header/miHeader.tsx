@@ -1,4 +1,4 @@
-import NavBar from "./miNavStyled/navBar";
+import NavBar from "./navBar/navBar";
 
 function MiHeader() {
   return (
