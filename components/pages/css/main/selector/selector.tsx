@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import SelectorStyled from "./selectorStyled";
-import { cssJason } from "@/components/cssJason";
+import { cssJson } from "@/components/cssJson";
 
 const StyledDiv = styled.div<{ selected: boolean }>`
   margin: 5px;
@@ -14,13 +14,13 @@ const StyledDiv = styled.div<{ selected: boolean }>`
   color: white;
   cursor: pointer;
   transition: all 0.5s;
-  ${(props) => props.selected && "Background: #9b9bc0"}
+  ${(props) => props.selected && "Background: #469133"}
 `;
 
 export default function Selector(props: any) {
   return (
     <SelectorStyled>
-      {cssJason.map((e: any, i: number) => {
+      {cssJson.map((e: any, i: number) => {
         return (
           <StyledDiv
             key={i}

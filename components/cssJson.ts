@@ -1,4 +1,4 @@
-export const cssJason = [
+export const cssJson = [
   {
     titulo: "Selector",
     descripcion:
