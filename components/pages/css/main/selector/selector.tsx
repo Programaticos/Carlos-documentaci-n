@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import SelectorStyled from "./selectorStyled";
-import Background from "../background";
 
 const StyledDiv = styled.div<{ selected: boolean }>`
   margin: 5px;
@@ -14,7 +13,7 @@ const StyledDiv = styled.div<{ selected: boolean }>`
   color: white;
   cursor: pointer;
   transition: all 0.5s;
-  ${(props) => props.selected && "Background: #b1b1bd"}
+  ${(props) => props.selected && "Background: #9b9bc0"}
 `;
 
 export default function Selector(props: any) {
@@ -28,7 +27,7 @@ export default function Selector(props: any) {
               onClick={() => {
                 props.setContenidoPresente(e);
               }}
-              selected={props.contenidoPresente === i ? true : false}
+              selected={props.contenidoPresente === e ? true : false}
             >
               {e}
             </StyledDiv>
