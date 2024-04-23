@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import SelectorStyled from "./selectorStyled";
+import { cssJason } from "@/components/cssJason";
 
 const StyledDiv = styled.div<{ selected: boolean }>`
   margin: 5px;
@@ -19,21 +20,19 @@ const StyledDiv = styled.div<{ selected: boolean }>`
 export default function Selector(props: any) {
   return (
     <SelectorStyled>
-      {["Background", "Color", "Border", "Padding", "Margin", "Display"].map(
-        (e: String, i: number) => {
-          return (
-            <StyledDiv
-              key={i}
-              onClick={() => {
-                props.setContenidoPresente(e);
-              }}
-              selected={props.contenidoPresente === e ? true : false}
-            >
-              {e}
-            </StyledDiv>
-          );
-        }
-      )}
+      {cssJason.map((e: any, i: number) => {
+        return (
+          <StyledDiv
+            key={i}
+            onClick={() => {
+              props.setContenidoPresente(e);
+            }}
+            selected={props.contenidoPresente === e ? true : false}
+          >
+            {e?.titulo}
+          </StyledDiv>
+        );
+      })}
     </SelectorStyled>
   );
 }
