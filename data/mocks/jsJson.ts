@@ -5,7 +5,7 @@ export const jsJson = [
       "Las funciones en JavaScript son bloques de código reutilizable que realizan una tarea específica. Puedes definir tus propias funciones y llamarlas en cualquier parte de tu código. Las funciones también pueden aceptar argumentos y devolver valores, lo que las hace flexibles y poderosas.",
     ejemplos: [
       {
-        titulo: "Ejemplo de función",
+        titulo: "Función",
         codigo: `
           function saludar(nombre) {
             return 'Hola, ' + nombre + '!';
@@ -16,7 +16,7 @@ export const jsJson = [
         `,
       },
       {
-        titulo: "Otro ejemplo de función",
+        titulo: "Otra Función",
         codigo: `
           function sumar(a, b) {
             return a + b;
@@ -34,7 +34,7 @@ export const jsJson = [
       "Las clases en JavaScript son una forma de definir objetos y su comportamiento. Utilizan la palabra clave `class` para definir una plantilla para la creación de objetos. Las clases pueden tener un constructor para inicializar propiedades y métodos para definir comportamientos.",
     ejemplos: [
       {
-        titulo: "Ejemplo de clase",
+        titulo: "Clase",
         codigo: `
           class Rectangulo {
             constructor(ancho, altura) {
@@ -59,7 +59,7 @@ export const jsJson = [
       "Los operadores en JavaScript son símbolos que realizan operaciones en uno o más operandos. Pueden ser aritméticos, de comparación, lógicos, de asignación, entre otros. Los operadores permiten realizar cálculos, comparaciones y otras acciones en el código JavaScript.",
     ejemplos: [
       {
-        titulo: "Ejemplo de operadores",
+        titulo: "Operadores",
         codigo: `
           let a = 5;
           let b = 3;
@@ -79,14 +79,14 @@ export const jsJson = [
       },
     ],
   },
-  // Los otros objetos con sus descripciones y ejemplos aquí...
+
   {
     titulo: "Variables",
     descripcion:
       "Las variables en JavaScript se utilizan para almacenar datos. Pueden contener valores de diferentes tipos, como números, cadenas de texto, booleanos, objetos, etc. Las variables se pueden declarar utilizando las palabras clave `var`, `let` o `const`.",
     ejemplos: [
       {
-        titulo: "Ejemplo de variables",
+        titulo: "Variables",
         codigo: `
           // Declaración de variables
           var x = 5;
@@ -109,7 +109,7 @@ export const jsJson = [
       "Los arrays en JavaScript son estructuras de datos que se utilizan para almacenar múltiples valores en una sola variable. Pueden contener cualquier tipo de dato y su tamaño puede cambiar dinámicamente. Los arrays se definen utilizando corchetes `[]` y los elementos se separan por comas.",
     ejemplos: [
       {
-        titulo: "Ejemplo de arrays",
+        titulo: "Arrays",
         codigo: `
           // Declaración de un array
           const frutas = ["Manzana", "Banana", "Fresa"];
@@ -134,7 +134,7 @@ export const jsJson = [
       "Los objetos en JavaScript son colecciones de pares de clave-valor. Se utilizan para representar entidades con propiedades y métodos. Los objetos se definen utilizando llaves `{}` y las propiedades se acceden mediante la notación de punto o corchetes.",
     ejemplos: [
       {
-        titulo: "Ejemplo de objetos",
+        titulo: "Objetos",
         codigo: `
           // Declaración de un objeto
           const persona = {
@@ -164,7 +164,7 @@ export const jsJson = [
       "Los condicionales en JavaScript se utilizan para tomar decisiones basadas en condiciones específicas. Pueden ser simples (`if`), múltiples (`if...else if...else`) o anidados. Los condicionales evalúan una expresión y ejecutan un bloque de código si la expresión es verdadera.",
     ejemplos: [
       {
-        titulo: "Ejemplo de condicionales",
+        titulo: "Condicionales",
         codigo: `
           let edad = 18;
 
@@ -183,7 +183,7 @@ export const jsJson = [
       "Los bucles en JavaScript se utilizan para ejecutar repetidamente un bloque de código mientras se cumpla una condición específica. Los bucles más comunes son `for`, `while` y `do...while`. Se utilizan para automatizar tareas repetitivas.",
     ejemplos: [
       {
-        titulo: "Ejemplo de bucles",
+        titulo: "Bucles",
         codigo: `
           // Bucle for
           for (let i = 0; i < 5; i++) {
@@ -213,7 +213,7 @@ export const jsJson = [
       "Las funciones de flecha son una forma abreviada de escribir funciones en JavaScript. Son funciones anónimas que pueden ser más concisas y expresivas que las funciones tradicionales. Se definen utilizando la sintaxis `() => {}`.",
     ejemplos: [
       {
-        titulo: "Ejemplo de funciones de flecha",
+        titulo: "Funciones de flecha",
         codigo: `
           // Función tradicional
           function sumar(a, b) {
@@ -235,7 +235,7 @@ export const jsJson = [
       "Las promesas en JavaScript se utilizan para manejar operaciones asincrónicas. Representan un valor que puede estar disponible ahora, en el futuro o nunca. Las promesas tienen tres estados: pendiente, cumplida y rechazada.",
     ejemplos: [
       {
-        titulo: "Ejemplo de promesas",
+        titulo: "Promesas",
         codigo: `
           // Ejemplo de promesa que se resuelve después de un tiempo
           const miPromesa = new Promise((resolve, reject) => {
@@ -258,7 +258,7 @@ export const jsJson = [
       "Async/Await es una característica de JavaScript que permite escribir código asincrónico de forma síncrona. Utiliza las palabras clave `async` y `await` para manejar promesas de una manera más legible y fácil de entender.",
     ejemplos: [
       {
-        titulo: "Ejemplo de Async/Await",
+        titulo: "Async/Await",
         codigo: `
           // Función que devuelve una promesa que se resuelve después de un tiempo
           function esperar(ms) {
@@ -284,7 +284,7 @@ export const jsJson = [
       "Los módulos en JavaScript permiten dividir el código en archivos más pequeños y reutilizables. Cada archivo de módulo contiene su propio ámbito y las exportaciones e importaciones se utilizan para compartir código entre diferentes módulos.",
     ejemplos: [
       {
-        titulo: "Ejemplo de módulos",
+        titulo: "Módulos",
         codigo: `
           // En un archivo llamado modulo.js
           export function saludar(nombre) {
@@ -306,7 +306,7 @@ export const jsJson = [
       "Los eventos en JavaScript son acciones que ocurren en el DOM o en el navegador, como hacer clic en un botón, cargar una página, mover el mouse, etc. Se utilizan para crear interactividad en las páginas web y se pueden manejar mediante event listeners.",
     ejemplos: [
       {
-        titulo: "Ejemplo de eventos",
+        titulo: "Eventos",
         codigo: `
           // Obtener referencia al botón
           const boton = document.getElementById('miBoton');
@@ -325,7 +325,7 @@ export const jsJson = [
       "La manipulación del DOM en JavaScript se utiliza para cambiar el contenido, la estructura o el estilo de una página web. Permite agregar, eliminar o modificar elementos HTML, así como responder a eventos del usuario.",
     ejemplos: [
       {
-        titulo: "Ejemplo de DOM Manipulación",
+        titulo: "DOM Manipulación",
         codigo: `
           // Obtener referencia al elemento
           const titulo = document.getElementById('titulo');
@@ -350,7 +350,7 @@ export const jsJson = [
       "Las expresiones regulares en JavaScript se utilizan para buscar y manipular texto basado en patrones específicos. Permiten realizar búsquedas, reemplazos, validaciones y otras operaciones complejas en cadenas de texto.",
     ejemplos: [
       {
-        titulo: "Ejemplo de Expresiones Regulares",
+        titulo: "Expresiones Regulares",
         codigo: `
           // Ejemplo de validación de correo electrónico
           const patronCorreo = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
