@@ -1,33 +1,10 @@
-import styled from "styled-components";
 import SelectorStyled from "./selectorStyled";
 import { cssJson } from "@/cssJson";
+import StyledDiv from "./StyledDiv";
+import React from "react";
+import { CssJsonStructure } from "./types";
 
-export interface Ejemplos {
-  titulo: string;
-  descripcion: string;
-}
-export interface CssJsonStructure {
-  titulo: string;
-  descripcion: string;
-  ejemplos: Ejemplos[];
-}
-
-const StyledDiv = styled.div<{ selected: boolean }>`
-  margin: 5px;
-  border-radius: 3px;
-  height: 20px;
-  padding-top: 10px;
-  align-items: center;
-  display: flex;
-  padding-left: 10px;
-  background-color: green;
-  color: white;
-  cursor: pointer;
-  transition: all 0.5s;
-  ${(props) => props.selected && "Background: #469133"}
-`;
-
-export default function Selector(props: any) {
+export default function Selector(props: any): React.ReactElement {
   return (
     <SelectorStyled>
       {cssJson.map((e: CssJsonStructure, i: number) => {
