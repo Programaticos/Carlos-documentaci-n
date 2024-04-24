@@ -26,17 +26,16 @@ export const DivContainer = styled.div`
 `;
 
 export const OtroDivStyled = styled.div`
-  background-color: green;
-  border-radius: 5px;
-  color: white;
-  width: 120px;
-  padding: 5px;
   button {
-    background-color: inherit;
+    background-color: green;
     color: white;
     font-family: inherit;
     border: none;
     box-shadow: none;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
   }
 `;
 
