@@ -9,7 +9,6 @@ const MiNavStyled = styled.nav`
   justify-content: space-around;
   list-style: none;
   border-radius: 5px;
-  background-color: green;
   box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.17);
   :hover {
     height: 48px;

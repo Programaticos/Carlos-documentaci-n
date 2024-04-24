@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const TituloH2 = styled.h2`
   font-size: 54px;
-  color: white;
-  background-color: blue;
+  color: #323330;
+  background-color: #f0db4f;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -15,20 +15,20 @@ export const TituloH2 = styled.h2`
 
 export const DivContainer = styled.div`
   margin: 48px;
-  border: 2px solid blue;
+  border: 2px solid #f0db4f;
   border-radius: 0 0 5px 5px;
   margin-top: 0;
   height: 220px;
   position: relative;
   top: -2px;
-  color: blue;
+  color: #323330;
   padding: 20px;
 `;
 
 export const OtroDivStyled = styled.div`
   button {
-    background-color: blue;
-    color: white;
+    background-color: #f0db4f;
+    color: #323330;
     font-family: inherit;
     border: none;
     box-shadow: none;
@@ -37,8 +37,8 @@ export const OtroDivStyled = styled.div`
     border-radius: 5px;
     cursor: pointer;
     &:hover {
-      background-color: rgb(17, 17, 168);
-      color: aliceblue;
+      background-color: #f0db4f;
+      color: white;
     }
   }
 `;

@@ -8,15 +8,15 @@ const StyledDiv = styled.div<{ selected: boolean }>`
   align-items: center;
   display: flex;
   padding-left: 10px;
-  background-color: blue;
-  color: white;
+  background-color: #f0db4f;
+  color: #323330;
   cursor: pointer;
   &:hover {
-    background-color: rgb(17, 17, 168);
-    color: aliceblue;
+    background-color: #f0db5f;
+    color: white;
   }
   transition: all 0.5s;
-  ${(props) => props.selected && "Background: rgb(17, 17, 168)"}
+  ${(props) => props.selected && "Background: #F0DB4F"}
 `;
 
 export default StyledDiv;

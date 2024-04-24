@@ -3,7 +3,7 @@ import Link from "next/link";
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
 import Saludo from "@/components/layout/header/saludo";
-
+import MainContainerJs from "@/components/pages/js/main/mainContainer/mainContainerJs";
 export default function Js() {
   return (
     <>
@@ -14,8 +14,9 @@ export default function Js() {
         <link rel="icon" href="/jsFav.png" />
       </Head>
       <MiHeader />
+      <Saludo titulo="Javascript" />
       <main>
-        <Saludo titulo="Javascript" />
+        <MainContainerJs />
       </main>
       <Link
         href="https://developer.mozilla.org/es/docs/Web/JavaScript"
