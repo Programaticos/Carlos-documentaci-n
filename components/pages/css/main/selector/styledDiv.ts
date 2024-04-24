@@ -8,7 +8,7 @@ const StyledDiv = styled.div<{ selected: boolean }>`
   align-items: center;
   display: flex;
   padding-left: 10px;
-  background-color: blue;
+  background-color: #2965f1;
   color: white;
   cursor: pointer;
   &:hover {

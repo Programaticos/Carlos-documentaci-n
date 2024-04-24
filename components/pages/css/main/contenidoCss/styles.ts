@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const TituloH2 = styled.h2`
   font-size: 54px;
   color: white;
-  background-color: blue;
+  background-color: #2965f1;
   border-radius: 5px;
   display: flex;
   justify-content: center;
@@ -15,7 +15,7 @@ export const TituloH2 = styled.h2`
 
 export const DivContainer = styled.div`
   margin: 48px;
-  border: 2px solid blue;
+  border: 2px solid #2965f1;
   border-radius: 0 0 5px 5px;
   margin-top: 0;
   height: 220px;
@@ -27,7 +27,7 @@ export const DivContainer = styled.div`
 
 export const OtroDivStyled = styled.div`
   button {
-    background-color: blue;
+    background-color: #2965f1;
     color: white;
     font-family: inherit;
     border: none;

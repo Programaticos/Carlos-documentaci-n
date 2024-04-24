@@ -16,10 +16,10 @@ const SelectorStyled = styled.div`
     background: #cccccc;
   }
   &::-webkit-scrollbar-thumb {
-    background: blue;
+    background: #2965f1;
   }
   &::-webkit-scrollbar-thumb:hover {
-    background: blue;
+    background: #2965f1;
   }
 
   &::-webkit-scrollbar-button {
