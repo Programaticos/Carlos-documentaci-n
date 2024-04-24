@@ -1,22 +1,21 @@
 import SelectorStyled from "./selectorStyled";
-import { cssJson } from "@/cssJson";
-import StyledDiv from "./StyledDiv";
-import React from "react";
+import { cssJson } from "@/data/mocks/cssJson";
 import { CssJsonStructure } from "./types";
+import StyledDiv from "./styledDiv";
 
 export default function Selector(props: any): React.ReactElement {
   return (
     <SelectorStyled>
-      {cssJson.map((e: CssJsonStructure, i: number) => {
+      {cssJson.map((element: CssJsonStructure, i: number) => {
         return (
           <StyledDiv
             key={i}
             onClick={() => {
-              props.setContenidoPresente(e);
+              props.setContenidoPresente(element);
             }}
-            selected={props.contenidoPresente === e ? true : false}
+            selected={props.contenidoPresente === element ? true : false}
           >
-            {e?.titulo}
+            {element?.titulo}
           </StyledDiv>
         );
       })}
