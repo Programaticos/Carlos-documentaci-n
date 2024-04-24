@@ -16,8 +16,8 @@ export const FirstDivStyled = styled.div`
 
 export const SecondDivStyled = styled.div`
   background: white;
-  width: 50vw;
-  height: 50vh;
+  width: 70vw;
+  height: 70vh;
   border-radius: 5px;
   display: flex;
   flex-direction: column;

@@ -11,12 +11,12 @@ function ContenidoJs(props: any): React.ReactElement {
         <DivContainer>
           <p>{props.contenidoPresente.descripcion}</p>
           <OtroDivMas>
-            {props.contenidoPresente.ejemplo?.map(
-              (ejemplo: JsJsonStructure, i: number) => {
+            {props.contenidoPresente.ejemplos?.map(
+              (ejemplos: JsJsonStructure, i: number) => {
                 return (
                   <OtroDivStyled key={i}>
-                    <BotonEjemplo ejemplo={ejemplo}>
-                      {ejemplo.titulo}{" "}
+                    <BotonEjemplo ejemplo={ejemplos}>
+                      {ejemplos.titulo}{" "}
                     </BotonEjemplo>
                   </OtroDivStyled>
                 );

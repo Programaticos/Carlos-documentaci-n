@@ -1,4 +1,4 @@
-export interface Ejemplo {
+export interface Ejemplos {
   titulo: string;
   codigo: string;
 }
@@ -6,5 +6,5 @@ export interface Ejemplo {
 export interface JsJsonStructure {
   titulo: string;
   descripcion: string;
-  ejemplo: Ejemplo[];
+  ejemplo: Ejemplos[];
 }
