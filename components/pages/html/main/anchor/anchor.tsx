@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import AnchorStyled from "./anchorStyled";
 
-function Anchor() {
+function Anchor(): React.ReactElement {
   return (
     <>
       <AnchorStyled>

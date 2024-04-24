@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-function MiImg() {
+function MiImg(): React.ReactElement {
   return (
     <>
       <main className="imgContainer">

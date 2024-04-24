@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function BotonEjemplo(props: any) {
+export default function BotonEjemplo(props: any): React.ReactElement {
   const [modalVisible, setModalVisible] = useState<boolean>(false);
   return (
     <>

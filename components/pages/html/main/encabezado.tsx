@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function Encabezado() {
+function Encabezado(): React.ReactElement {
   return (
     <>
       {" "}

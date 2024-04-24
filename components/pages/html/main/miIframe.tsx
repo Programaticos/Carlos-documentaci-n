@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function MiIFrame() {
+function MiIFrame(): React.ReactElement {
   return (
     <>
       <h1>Esto es un iFrame </h1>

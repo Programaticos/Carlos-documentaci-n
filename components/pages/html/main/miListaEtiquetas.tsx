@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function MiListaEtiquetas() {
+function MiListaEtiquetas(): React.ReactElement {
   return (
     <>
       {" "}

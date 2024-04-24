@@ -2,6 +2,16 @@ import styled from "styled-components";
 import SelectorStyled from "./selectorStyled";
 import { cssJson } from "@/components/cssJson";
 
+export interface Ejemplos {
+  titulo: string;
+  descripcion: string;
+}
+export interface CssJsonStructure {
+  titulo: string;
+  descripcion: string;
+  ejemplos: Ejemplos[];
+}
+
 const StyledDiv = styled.div<{ selected: boolean }>`
   margin: 5px;
   border-radius: 3px;
@@ -20,7 +30,7 @@ const StyledDiv = styled.div<{ selected: boolean }>`
 export default function Selector(props: any) {
   return (
     <SelectorStyled>
-      {cssJson.map((e: any, i: number) => {
+      {cssJson.map((e: CssJsonStructure, i: number) => {
         return (
           <StyledDiv
             key={i}

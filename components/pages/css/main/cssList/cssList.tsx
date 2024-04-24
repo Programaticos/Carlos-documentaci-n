@@ -4,7 +4,7 @@ import Background from "../background";
 import Border from "../border";
 import CssListStyled from "./cssListStyled";
 
-function CssList() {
+function CssList(): React.ReactElement {
   const [rendered, setRendered] = useState<React.ReactElement | null>(null);
 
   function clickHandler(titulo: string) {

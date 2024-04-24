@@ -2,7 +2,7 @@ import { MiBoton } from "@/components/MiBoton";
 import { Select } from "@/components/Select";
 import Link from "next/link";
 
-function Formulario() {
+function Formulario(): React.ReactElement {
   return (
     <>
       <h1>Esto es un formulario</h1>

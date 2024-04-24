@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Contador() {
+function Contador(): React.ReactElement {
   const [count, setcount] = useState(0);
 
   return (

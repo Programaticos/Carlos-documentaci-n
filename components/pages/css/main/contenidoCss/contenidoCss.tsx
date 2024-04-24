@@ -2,6 +2,7 @@ import styled from "styled-components";
 import ContenidoCssStyled from "./contenidoCssStyled";
 import { useState } from "react";
 import BotonEjemplo from "../botonEjemplo";
+import { CssJsonStructure } from "../selector/selector";
 
 const TituloH2 = styled.h2`
   font-size: 54px;
@@ -57,7 +58,7 @@ const YOtroDivMas = styled.div`
   align-items: center;
 `;
 
-function ContenidoCss(props: any) {
+function ContenidoCss(props: any): React.ReactElement {
   const [modalVisible, setModalVisible] = useState<boolean>(false);
 
   const handleClick = () => {
@@ -72,7 +73,7 @@ function ContenidoCss(props: any) {
           <p>{props.contenidoPresente.descripcion}</p>
           <OtroDivMas>
             {props.contenidoPresente.ejemplos?.map(
-              (ejemplo: any, i: number) => {
+              (ejemplo: CssJsonStructure, i: number) => {
                 return (
                   <OtroDivStyled key={i}>
                     <BotonEjemplo

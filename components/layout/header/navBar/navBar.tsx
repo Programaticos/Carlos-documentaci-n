@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import MiNavStyled from "./miNavStyled";
 
-function NavBar() {
+function NavBar(): React.ReactElement {
   return (
     <MiNavStyled>
       <ul className="miNavBar">

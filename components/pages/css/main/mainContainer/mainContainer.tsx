@@ -3,7 +3,7 @@ import ContenidoCss from "../contenidoCss/contenidoCss";
 import Selector from "../selector/selector";
 import MainContainerStyled from "./mainContainerStyled";
 
-function MainContainer() {
+function MainContainer(): React.ReactElement {
   const [contenidoPresente, setContenidoPresente] = useState<number>(0);
 
   return (

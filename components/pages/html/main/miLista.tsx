@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-function MiLista() {
+function MiLista(): React.ReactElement {
   return (
     <>
       <main>
