@@ -1,14 +1,8 @@
 import ContenidoCssStyled from "./contenidoCssStyled";
 import { useState } from "react";
-import BotonEjemplo from "../botonEjemplo";
+import BotonEjemplo from "../botonEjemplo/botonEjemplo";
 import { CssJsonStructure } from "../selector/types";
-import {
-  DivContainer,
-  OtroDivMas,
-  OtroDivStyled,
-  TituloH2,
-  YOtroDivMas,
-} from "./styles";
+import { DivContainer, OtroDivMas, OtroDivStyled, TituloH2 } from "./styles";
 
 function ContenidoCss(props: any): React.ReactElement {
   const [modalVisible, setModalVisible] = useState<boolean>(false);
@@ -33,9 +27,6 @@ function ContenidoCss(props: any): React.ReactElement {
                       onClick={() => handleClick()}
                     >
                       {ejemplo.titulo}{" "}
-                      <YOtroDivMas>
-                        {modalVisible && ejemplo.descripcion}
-                      </YOtroDivMas>
                     </BotonEjemplo>
                   </OtroDivStyled>
                 );

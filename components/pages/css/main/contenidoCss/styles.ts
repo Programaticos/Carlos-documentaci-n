@@ -46,10 +46,3 @@ export const OtroDivMas = styled.div`
   justify-content: center;
   align-items: center;
 `;
-
-export const YOtroDivMas = styled.div`
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-  align-items: center;
-`;
