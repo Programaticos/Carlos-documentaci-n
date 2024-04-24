@@ -1,5 +1,5 @@
-import { MiBoton } from "@/components/MiBoton";
-import { Select } from "@/components/Select";
+import { MiBoton } from "@/components/otrosComponentes/MiBoton";
+import { Select } from "@/components/otrosComponentes/Select";
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
 import Formulario from "@/components/pages/html/main/formulario";

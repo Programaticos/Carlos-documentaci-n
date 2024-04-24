@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import SelectorStyled from "./selectorStyled";
-import { cssJson } from "@/components/cssJson";
+import { cssJson } from "@/cssJson";
 
 export interface Ejemplos {
   titulo: string;

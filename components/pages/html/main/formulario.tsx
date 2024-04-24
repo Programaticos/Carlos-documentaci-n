@@ -1,5 +1,5 @@
-import { MiBoton } from "@/components/MiBoton";
-import { Select } from "@/components/Select";
+import { MiBoton } from "@/components/otrosComponentes/MiBoton";
+import { Select } from "@/components/otrosComponentes/Select";
 import Link from "next/link";
 
 function Formulario(): React.ReactElement {
