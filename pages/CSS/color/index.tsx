@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import MiFooter from "@/components/layout/footer/miFooter";
 import MiHeader from "@/components/layout/header/miHeader";
-import Color from "@/components/pages/css/main/color";
+import Color from "@/components/pages/css/main/color/color";
 
 export default function CssColor() {
   return (

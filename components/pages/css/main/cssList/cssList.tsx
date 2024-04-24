@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Color from "../color";
-import Background from "../background";
-import Border from "../border";
+import Color from "../color/color";
+import Background from "../background/background";
+import Border from "../border/border";
 import CssListStyled from "./cssListStyled";
 
 function CssList(): React.ReactElement {
