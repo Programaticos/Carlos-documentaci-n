@@ -8,18 +8,21 @@ export const FirstDivStyled = styled.div`
   top: 0;
   left: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.17);
 `;
 
 export const SecondDivStyled = styled.div`
   background: white;
-  width: 70vw;
-  height: 70vh;
+  width: 50vw;
+  height: 50vh;
   border-radius: 5px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   color: black;
   padding: 50px;
+  box-shadow: 0px 4px 15px 4px #000000;
 `;

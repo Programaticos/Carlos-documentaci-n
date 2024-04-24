@@ -11,7 +11,10 @@ export default function BotonEjemplo(props: any): React.ReactElement {
             setModalVisible(false);
           }}
         >
-          <SecondDivStyled>{props.ejemplo?.descripcion}</SecondDivStyled>
+          <SecondDivStyled>
+            <h2>{props.ejemplo?.titulo}</h2>
+            {props.ejemplo?.descripcion}
+          </SecondDivStyled>
         </FirstDivStyled>
       )}
       <button

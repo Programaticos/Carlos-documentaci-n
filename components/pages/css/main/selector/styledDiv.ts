@@ -11,6 +11,10 @@ const StyledDiv = styled.div<{ selected: boolean }>`
   background-color: green;
   color: white;
   cursor: pointer;
+  &:hover {
+    background-color: #469133;
+    color: aliceblue;
+  }
   transition: all 0.5s;
   ${(props) => props.selected && "Background: #469133"}
 `;

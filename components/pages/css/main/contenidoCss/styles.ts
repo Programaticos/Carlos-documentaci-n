@@ -36,6 +36,10 @@ export const OtroDivStyled = styled.div`
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
+    &:hover {
+      background-color: #469133;
+      color: aliceblue;
+    }
   }
 `;
 

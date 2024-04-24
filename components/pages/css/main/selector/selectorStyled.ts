@@ -8,6 +8,7 @@ const SelectorStyled = styled.div`
   margin-right: 5px;
   overflow: scroll;
   overflow-x: hidden;
+  transition: all 0.5s;
   &::-webkit-scrollbar {
     width: 10px;
   }

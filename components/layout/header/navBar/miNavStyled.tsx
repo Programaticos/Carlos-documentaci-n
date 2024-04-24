@@ -2,17 +2,20 @@ import styled from "styled-components";
 
 const MiNavStyled = styled.nav`
   max-width: 100vw;
-  height: 50px;
+  height: 55px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   list-style: none;
-  border: 1px solid black;
   border-radius: 5px;
+  background-color: green;
+  box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.17);
   :hover {
-    height: 45px;
-    transition: all 0.1s;
+    height: 48px;
+    width: 48px;
   }
+  transition: all 0.5s;
 `;
 
 export default MiNavStyled;
