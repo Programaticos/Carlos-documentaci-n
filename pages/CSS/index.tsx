@@ -16,6 +16,13 @@ export default function Css() {
       </Head>
       <MiHeader />
       <Saludo titulo="Css" />
+
+      <main>
+        <MainContainer />
+      </main>
+      <br />
+      <Link href="./">Home</Link>
+      <br />
       <br />
       <Link
         href="https://developer.mozilla.org/es/docs/Web/CSS"
@@ -23,10 +30,6 @@ export default function Css() {
       >
         Pulsa para ver la documentación oficial de CSS
       </Link>
-      <main>
-        <MainContainer />
-      </main>
-
       <MiFooter />
     </>
   );

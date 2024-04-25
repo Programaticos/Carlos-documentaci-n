@@ -18,13 +18,18 @@ export default function Js() {
       <main>
         <MainContainerJs />
       </main>
+
+      <br />
+      <Link href="./">Home</Link>
+      <br />
+      <br />
       <Link
         href="https://developer.mozilla.org/es/docs/Web/JavaScript"
         target="_blank"
       >
-        <h3>Pulsa para ver la documentación oficial de JS</h3>
+        Pulsa para ver la documentación oficial de JS
       </Link>
-      <Link href="./">Home</Link>
+
       <MiFooter />
     </>
   );

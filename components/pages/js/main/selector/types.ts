@@ -6,5 +6,5 @@ export interface Ejemplos {
 export interface JsJsonStructure {
   titulo: string;
   descripcion: string;
-  ejemplo: Ejemplos[];
+  ejemplos: Ejemplos[];
 }
