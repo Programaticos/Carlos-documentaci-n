@@ -20,7 +20,7 @@ function ContenidoJs(props: any): React.ReactElement {
                     </BotonEjemplo>
                   </OtroDivStyled>
                 );
-              }
+              },
             )}
           </OtroDivMas>
         </DivContainer>

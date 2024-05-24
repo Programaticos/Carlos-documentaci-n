@@ -7,7 +7,7 @@ import { CssJsonStructure } from "../selector/types";
 
 function MainContainer(): React.ReactElement {
   const [contenidoPresente, setContenidoPresente] = useState<CssJsonStructure>(
-    cssJson[0]
+    cssJson[0],
   );
 
   return (
