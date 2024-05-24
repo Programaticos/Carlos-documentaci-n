@@ -20,7 +20,7 @@ function ContenidoCss(props: any): React.ReactElement {
                     </BotonEjemplo>
                   </OtroDivStyled>
                 );
-              }
+              },
             )}
           </OtroDivMas>
         </DivContainer>

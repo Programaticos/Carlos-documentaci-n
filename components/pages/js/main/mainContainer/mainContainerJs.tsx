@@ -7,7 +7,7 @@ import { jsJson } from "@/data/mocks/jsJson";
 
 function MainContainerJs(): React.ReactElement {
   const [contenidoPresente, setContenidoPresente] = useState<JsJsonStructure>(
-    jsJson[0]
+    jsJson[0],
   );
 
   return (
